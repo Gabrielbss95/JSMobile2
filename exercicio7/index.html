@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+   p#alimentos {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: auto auto auto auto auto;
+   }
+
+   a.display {
+      width: auto;
+      color: unset;
+      display: grid;
+      grid-gap: 5px;
+      text-align: center;
+      text-decoration: none;
+      grid-template-rows: auto;
+      border: 1px solid lightgray;
+   }
+
+   a.display:hover {
+      opacity: 0.8;
+      background-color: #eeeeee;
+   }
+
+   #alimentos div {
+      font-size: 18px;
+      font-weight: bold;
+   }
+
+   #alimentos img {
+      margin: 0 auto;
+
+   }
+
+   #alimentos span {
+      color: gray;
+      font-size: 16px;
+      font-style: italic;
+   }
+</style>
+
+<body>
+   <div>
+      <h4>Numero - 7</h4>
+      <p id="alimentos">
+      </p>
+   </div>
+
+
+</body>
+<script src="./script.js"></script>
+
+</html>
